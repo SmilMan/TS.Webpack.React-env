@@ -16,7 +16,7 @@ let defaultConfig = {
                     test: /\.(js|ts|jsx|tsx)$/,
                     include: [resolve('src')],   // 包含的文件
                     exclude: /node_modules/,   //排除的文件
-                    loader:'awesome-typescript-loader'
+                    loader:'babel-loader'
             }
         ]
     },

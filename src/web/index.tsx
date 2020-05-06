@@ -1,26 +1,9 @@
-interface Result{
-    title: string;
-}
-interface Data{
-    data: string;
-    result: Result;
-}
+import * as React from 'react'
+import * as ReactDom from 'react-dom'
 
-class Test {
-    private data;
-    constructor(str: Data) {
-        this.data = str.data
-    }
-    log() {
-        console.log(this.data)
-    }
-}
 
-const test = new Test({
-    data: 'gavinddddddddddd',
-    result:{
-        title: 'hhhh'
-    }
-})
+import App from './pages/app'
 
-test.log()
+
+
+ReactDom.render(<App/>, document.getElementById("app"))

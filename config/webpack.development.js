@@ -3,6 +3,7 @@ var FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
 var WebpackBuildNotifierPlugin = require('webpack-build-notifier');
 module.exports = {
     devServer: {
+        historyApiFallback:true,
         hot: true,
         contentBase: './dist',
     },
