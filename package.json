@@ -34,6 +34,7 @@
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.1.0",
     "friendly-errors-webpack-plugin": "^1.7.0",
+    "json2ts": "^0.0.7",
     "scripty": "^2.0.0",
     "typescript": "^3.8.3",
     "webpack": "^4.43.0",
